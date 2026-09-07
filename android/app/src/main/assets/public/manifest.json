@@ -1,0 +1,58 @@
+{
+  "name": "Faiza Zone — Hisab App (দোকানের স্টক ও হিসাব)",
+  "short_name": "Faiza Hisab",
+  "description": "Retail Clothing Shop POS, Size-wise Inventory, Baki Khata and Accounting Application",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "fullscreen", "minimal-ui"],
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "orientation": "any",
+  "lang": "bn",
+  "categories": ["business", "finance", "productivity", "shopping"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "ক্যাশ মেমো / বিক্রি (POS)",
+      "short_name": "POS বিক্রি",
+      "description": "নতুন ক্যাশ মেমো বা বিক্রি তৈরি করুন",
+      "url": "./index.html?view=pos",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "পণ্য ও স্টক (Inventory)",
+      "short_name": "স্টক খাতা",
+      "description": "সাইজ অনুযায়ী বর্তমান মজুত ও দামের হিসাব",
+      "url": "./index.html?view=inventory",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "কাস্টমার ও বাকির খাতা",
+      "short_name": "বাকির খাতা",
+      "description": "কাস্টমার বকেয়া ও বাকি আদায়",
+      "url": "./index.html?view=customers",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "দোকানের খরচ খাতা",
+      "short_name": "খরচ খাতা",
+      "description": "দৈনিক ও মাসিক খরচ হিসাব",
+      "url": "./index.html?view=expenses",
+      "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

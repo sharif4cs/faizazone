@@ -1,0 +1,25 @@
+{
+  "name": "faiza-zone-hisab-app",
+  "version": "2.0.0",
+  "description": "Faiza Zone — Retail Clothing Shop POS, Inventory & Accounting Mobile & Web App",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx serve -p 8080 .",
+    "build": "node sync-assets.js",
+    "sync": "node sync-assets.js",
+    "cap:add:android": "npx cap add android",
+    "cap:sync": "node sync-assets.js",
+    "cap:open:android": "npx cap open android",
+    "build:apk": "npm run build && cd android && .\\gradlew.bat assembleDebug"
+  },
+  "keywords": ["pos", "clothing", "inventory", "hisab", "accounting", "pwa", "android"],
+  "author": "Faiza Zone",
+  "license": "ISC",
+  "dependencies": {
+    "@capacitor/core": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^6.0.0",
+    "@capacitor/cli": "^6.0.0"
+  }
+}
